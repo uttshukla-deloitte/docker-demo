@@ -4,10 +4,12 @@ NGINX running as webserver with non root privilege in a docker container that se
 ## Prerequisites for Nginx-demo
 
 1. Install Docker using the necessary package for your OS:
-   https://docs.docker.com/get-docker/
+   
+   ```https://docs.docker.com/get-docker/```
 
 2. Clone demo repo
-   git clone git@github.com:abhishekjaindevops/docker-demo.git
+   
+   ```git clone git@github.com:abhishekjaindevops/docker-demo.git```
 
 ## Steps to create Docker image and running it on local
 
