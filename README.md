@@ -17,33 +17,33 @@ NGINX running as webserver with non root privilege in a docker container that se
 
 2. Once image is built we can use the below command to check it -
    
-   docker images
+   ```docker images```
 
 3. We can push this image to Dockerhub, inorder to do that ww need to first login to Dockerhub using the following -
    
-   docker login
+   ```docker login```
 
    Then run push command 
     
-   docker push abhishekjaindevops/docker-demo
+   ```docker push abhishekjaindevops/docker-demo```
 
 4. Now in order to run the docker container on local we need to run the following -
     
-   docker run -p 8080:8080 -d abhishekjaindevops/docker-demo
+   ```docker run -p 8080:8080 -d abhishekjaindevops/docker-demo```
 
-   To start a container in detached mode, we use -d
+   To start a container in detached mode, we use ```-d```
 
-   To expose a container’s internal we start the container with the -p flag
+   To expose a container’s internal we start the container with the ```-p``` flag
 
 5. Now we can use the ps command to see the running containers
    
-   docker ps
+   ```docker ps```
 
-   if we want to see all containers(including exited) we can use -a flag
+   if we want to see all containers(including exited) we can use ```-a``` flag
 
    It will show the results like this
 
-   CONTAINER ID   IMAGE                            COMMAND                  CREATED      STATUS      PORTS                            NAMES
-   aedd4e97850e   abhishekjaindevops/docker-demo   "/docker-entrypoint.…"   6 days ago   Up 6 days   80/tcp, 0.0.0.0:8080->8080/tcp   dreamy_mayer
+   ```CONTAINER ID   IMAGE                            COMMAND                  CREATED      STATUS      PORTS                            NAMES
+   aedd4e97850e   abhishekjaindevops/docker-demo   "/docker-entrypoint.…"   6 days ago   Up 6 days   80/tcp, 0.0.0.0:8080->8080/tcp   dreamy_mayer```
 
 6. Now we can get the ip and port on which container is running and open the in a browser.
