@@ -47,3 +47,8 @@ NGINX running as webserver with non root privilege in a docker container that se
    aedd4e97850e   abhishekjaindevops/docker-demo   "/docker-entrypoint.…"   6 days ago   Up 6 days   80/tcp, 0.0.0.0:8080->8080/tcp   dreamy_mayer```
 
 6. Now we can get the ip and port on which container is running and open the in a browser.
+
+<img width="1477" alt="Screenshot 2022-07-18 at 1 07 40 PM" src="https://user-images.githubusercontent.com/102737937/179466618-9c35d404-206f-4273-bab1-693b85c3f2b1.png">
+
+
+   
