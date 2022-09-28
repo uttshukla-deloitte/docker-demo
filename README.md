@@ -51,6 +51,9 @@ NGINX running as webserver with non root privilege in a docker container that se
 6. Now we can get the ip and port on which container is running and open the in a browser.
 
 <img width="1477" alt="Screenshot 2022-07-18 at 1 07 40 PM" src="https://user-images.githubusercontent.com/102737937/179466618-9c35d404-206f-4273-bab1-693b85c3f2b1.png">
+7. connect to the cluster by running command : kubectl confog use-context k3d-cluster
+8. cd deploy/chart 
+9. helm install nodeserver . -n <namespace>
 
 
    
