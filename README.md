@@ -21,7 +21,7 @@ NGINX running as webserver with non root privilege in a docker container that se
    
    ```docker images```
 
-3. We can push this image to Dockerhub, inorder to do that ww need to first login to Dockerhub using the following -
+3. We can push this image to Dockerhub, inorder to do that we need to first login to Dockerhub using the following -
    
    ```docker login```
 
